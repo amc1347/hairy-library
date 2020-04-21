@@ -1,0 +1,122 @@
+body {
+  background: #FFF7EE;
+  /* background-image: url('peppers.png') ; */
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Catamaran';
+  color: #A63625;
+}
+
+#heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  margin-top: -40px;
+  margin-left: 25px;
+  margin-bottom: -40px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  padding-right: 40px;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+#menu a {
+  color: #A63625;
+  font-size: 24pt;
+  text-decoration: none;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  padding: 14px, 16px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#menu a:hover {
+  /* border: #A63625 solid; */
+  color: #da6958;
+}
+
+#menu a.active {
+  text-decoration: underline;
+}
+
+#menu a.before {
+  font-weight: normal;
+  color: #FFF7EE;
+
+}
+
+#menu a::after {
+  color: #FFF7EE;
+}
+
+.top-info {
+  position: absolute;
+  left: -10vw;
+  margin-left: 90vw;
+  margin-top: -50px;
+  margin-bottom: -80px;
+  transform: rotate(90deg) translate(180px);
+}
+
+.top-info h4 {
+  font-weight: 300;
+  font-size: 150%;
+}
+
+.menu-image img {
+  height: 88vh;
+}
+
+.menu-image {
+  display: flex;
+  flex-direction: row;
+  background-image: url('menu.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 90vh;
+}
+
+.menu-image button{
+  width: 150px;
+  height: 50px;
+  align-self: center;
+  background-color: transparent;
+  border-radius: 2px;
+  border-color: #A63625;
+  border-width: 2px;
+  font-size: 120%;
+}
+
+#slider {
+  width: 60vw;
+  margin-top: 25px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 98vh; */
+}
+
+/* .item {
+  background-image: linear-gradient(white, black);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100px;
+  height: 100px;
+} */
